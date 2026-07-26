@@ -203,7 +203,7 @@ const Tests = () => {
   return (
     <DashboardShell title="Tests">
       {user.role === "admin" ? (
-        {user.role === "admin" && <AdminNav />}
+        <AdminNav />
       ) : (
         <Link to="/tutor" className="text-sm text-vatika-forest font-medium hover:underline mb-4 inline-block">
           ← Back to dashboard
